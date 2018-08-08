@@ -8,7 +8,7 @@ function Controller() {
         let template = ``
         people.forEach(person => {
             template += `
-            <div class="col-3">
+            <div class="col-4 text-center">
                 <img src="http://via.placeholder.com/150x150">
                 <h5>Name: ${person.name}</h5>
                 <p>Gender: ${person.gender}</p>
@@ -27,7 +27,7 @@ function Controller() {
         let template = ``
         people.forEach(person => {
             template += `
-            <div class="col-3">
+            <div class="col-12 text-center">
                 <img src="http://via.placeholder.com/150x150">
                 <h5>Name: ${person.name}</h5>
                 <p>Gender: ${person.gender}</p>
