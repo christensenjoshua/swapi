@@ -33,8 +33,8 @@ function Service(cb, cbD) {
         getOne(url)
 
     }
-    get('people')
     this.getPeople = function(){
         get('people')
     }
+    get('people')
 }

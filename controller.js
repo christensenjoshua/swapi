@@ -4,11 +4,10 @@ function Controller() {
     function draw() {
         //iterate through people
         let people = service.returnPeople()
-        console.log(people)
         let template = ``
         people.forEach(person => {
             template += `
-            <div class="col-4 text-center">
+            <div class="col-6 col-sm-4 text-center">
                 <img src="http://via.placeholder.com/150x150">
                 <h5>Name: ${person.name}</h5>
                 <p>Gender: ${person.gender}</p>
@@ -23,7 +22,6 @@ function Controller() {
     function drawDetail() {
         //iterate through people
         let people = service.returnPeople()
-        console.log(people)
         let template = ``
         people.forEach(person => {
             template += `
