@@ -1,3 +1,3 @@
 let app = {
-    controllers: new Controller()
+    controller: new Controller()
 }
